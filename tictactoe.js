@@ -151,9 +151,7 @@ function myfunc() {
 		b6btn.style.color = "red"; 
 	} 
 
-	// Checking of Player X finish 
-	// Checking for Player 0 starts, Is Player 0 is Winner or 
-	// not and after that disabled all the other fields 
+	
 	else if ((b1 == '0' || b1 == '0') && (b2 == '0' || 
 		b2 == '0') && (b3 == '0' || b3 == '0')) { 
 		document.getElementById('print') 
@@ -299,14 +297,13 @@ function myfunc() {
 	} 
 } 
 
-// Function to reset game 
+ 
 function myfunc_2() { 
 	location.reload(); 
 	b1 = b2 = b3 = b4 = b5 = b6 = b7 = b8 = b9 = ''; 
 } 
 
-// Here onwards, functions check turn of the player 
-// and put accordingly value X or 0 
+
 flag = 1; 
 function myfunc_3() { 
 	if (flag == 1) { 
